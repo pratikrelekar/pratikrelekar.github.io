@@ -6,3 +6,17 @@
 
 /* Secondary technical-focus line below the homepage introduction */
 .technical-focus{font-size:14px;color:#657386;letter-spacing:.01em;line-height:1.7;margin:-7px 0 23px!important}
+
+/* Homepage typewriter title: preserves normal text when JS is disabled. */
+.typewriter-heading { min-height: 1.17em; }
+.typewriter-name.is-typing {
+  display: inline-block;
+  white-space: nowrap;
+  border-right: .065em solid var(--blue);
+  padding-right: .08em;
+  animation: typewriter-caret .75s step-end infinite;
+}
+@keyframes typewriter-caret { 50% { border-color: transparent; } }
+@media (prefers-reduced-motion: reduce) {
+  .typewriter-name.is-typing { animation: none; border-right: 0; }
+}
