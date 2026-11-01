@@ -31,5 +31,3 @@ No build system, Node.js, or paid hosting is required. This uses static HTML/CSS
 - Review language for project status; NIQ–VIIRS comparison is **not completed**.
 - Check any NielsenIQ data licensing before publishing figures or sensitive statistics.
 - Optionally add LinkedIn and academic paper links when verified.
-
-This first version draws on white-theme academic-site principles from Shuo Feng, Jayden Teoh, and Takuya Koriyama, without copying their source code.
