@@ -20,3 +20,14 @@
 @media (prefers-reduced-motion: reduce) {
   .typewriter-name.is-typing { animation: none; border-right: 0; }
 }
+
+/* Affiliation marks in Currently and Background. */
+.logo-entry { display:flex; align-items:center; gap:17px; min-height:90px; }
+.affiliation-logo { flex:0 0 62px; width:62px; min-height:58px; display:flex; align-items:center; justify-content:center; }
+.affiliation-logo img { display:block; width:100%; max-height:54px; object-fit:contain; }
+.affiliation-logo.jci-logo { flex-basis:82px; width:82px; }
+.affiliation-logo.jci-logo img { max-height:48px; }
+.affiliation-logo.pune-logo { flex-basis:80px; width:80px; }
+.affiliation-logo.pune-logo img { max-height:54px; }
+.affiliation-details { flex:1; min-width:0; }
+@media(max-width:700px) { .logo-entry { gap:14px; } .affiliation-logo { flex-basis:54px; width:54px; } .affiliation-logo.jci-logo,.affiliation-logo.pune-logo { flex-basis:70px; width:70px; } }
