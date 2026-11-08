@@ -31,3 +31,17 @@
 .affiliation-logo.pune-logo img { max-height:54px; }
 .affiliation-details { flex:1; min-width:0; }
 @media(max-width:700px) { .logo-entry { gap:14px; } .affiliation-logo { flex-basis:54px; width:54px; } .affiliation-logo.jci-logo,.affiliation-logo.pune-logo { flex-basis:70px; width:70px; } }
+
+/* Visible fallback when institution-hosted images cannot load. */
+.logo-fallback[hidden] {display:none !important;}
+.logo-fallback { display:flex; align-items:center; justify-content:center; box-sizing:border-box; min-width:52px; min-height:52px; border-radius:8px; border:1px solid #dce4ed; font-family:Arial,sans-serif; font-weight:800; background:#f7f9fc; letter-spacing:-.035em; }
+.uiuc-fallback { color:#f15a22; -webkit-text-stroke:1px #13294b; font-size:42px; font-family:Georgia,serif; }
+.jci-fallback { color:#1766ad; font-size:21px; }
+.sppu-fallback { color:#7b493a; font-size:14px; }
+
+/* Homepage contact links: lightweight, accessible inline icons */
+.socials { display:flex; align-items:center; flex-wrap:wrap; gap:12px 22px; }
+.socials a { display:inline-flex; align-items:center; gap:7px; min-height:30px; white-space:nowrap; text-decoration:none; }
+.socials a:hover { text-decoration:underline; text-underline-offset:3px; }
+.socials a:focus-visible { outline:2px solid var(--blue); outline-offset:4px; border-radius:3px; }
+.social-icon { width:18px; height:18px; flex:none; }
